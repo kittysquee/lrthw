@@ -1,0 +1,88 @@
+puts: puts a string out to the terminal, has an implicit line break
+
+#: pound/octothorpe allows you to leave comments in your code
+
++: will add two elements together (if they permit)
+
+-: will subtract one element from another
+
+/: divide
+
+*:multiply
+
+%:modulo
+
+<:less than
+
+>: greater than
+
+<=: less than equals
+
+>=: greater than equals
+
+=: assigns
+
+==: equal to
+
+#{}: string interpolation. allows you to put code into a string and allows that to be outputted as part of the string
+
+integer: Whole number ie 7, 67876, -6, 0
+
+float: number with decimal point ie 1.4, 0.987, -10.6789
+
+variable: stores things that are assigned to it
+
+print: puts a string out to the terminal without a line break
+
+%{}: kind of works like interpolation. Powerful with formatting
+
+\n: new line (the backslash escapes special characters) Must be used in double quotes
+
+\t: tabs in
+
+\\...\\: stuff within back slashes like this will have spacing either side
+
+gets: waits for user input, enters a new line at the end
+
+chomp: removes the new line from the method gets
+
+.to_i: changes to integer (works on numbers in strings -there are special exceptions though)
+
+.to_f: changes to float (works on numbers in strings -there are special exceptions though)
+
+.round(): will round a float to a set decimal place
+
+ARGV: allows us to feed arguments into the terminal
+
+$stdin: allows us to use gets.chomp with ARGV, as without gets.chomp will break the script
+
+open(): will open the file contained within the brackets
+
+.read: will read a file
+
+.close: will close a file
+
+readline: reads just one line of the program
+
+truncate(): empties the file, set with value in brackets (this is in bytes not characters)
+
+write(): Allows you to write to the file
+
+open(..., 'w'): the w allows us to write to the file
+      you can also have w+ (write and read), r (read), r+ (read and write)
+
+(*args): the star is called a splat. It works like ARGV in the terminal except we feed the argument in in the script.
+
+methods:
+    def -this defines the method
+    then you name your method and feed parameters in if needed
+    then you end
+
+    def method_name(parameter)
+      your code here
+    end
+
+f.seek() file stands for file .seek() you can enter a number and it will seek out that position in the file (the number is in bytes)
+
++= can be used as shorthand
+  ie x += y is the same as x = x + y
