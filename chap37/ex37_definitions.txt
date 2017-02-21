@@ -1,0 +1,71 @@
+BEGIN: Designates this code to be ran unconditionally, in other words it will run before any other code runs in the script. Normally Ruby runs from top to bottom, BEGIN will force itself to the top regardless of where it is situated within the code.
+
+END: Does the same thing as BEGIN except it forces itself to the bottom of the executed code, so it is the last thing to be run in a script.
+
+alias: You alias a method. This just assigns a second name for a variable. The original method can still be ran with its original name. For example you could set: alias full_name= name=
+
+and: is the same as && but has lower precedence. && will almost always work in some instances that "and" will not work in. "&&" is stronger.
+
+begin: runs a block of code on it's own along with "end"
+
+break: For breaking immediately out of a loop. Can be used if you don't want a loop to run under certain conditions.
+
+case: Used with "when". The first "when" clause to match the condition wins and that code is executed.
+
+class: defines a new class/object. They have their own local variables that work within them and are independent from the rest of the code outside the class.
+
+def: defines a new function.
+
+defined?: determines if a method refers to something directly
+
+do: execute everything that follows as though it were part of the same block. "do" indicates the start of a block
+
+else: do this if all the other conditions aren't met.
+
+elsif: works the same as else but must meet a condition
+
+end: ends everything, blocks, functions, classes. So essentially ends a block of code. (I am not going to do a code example for end as I have loads.)
+
+ensure/rescue: Works with a "begin/end" block. This will ensure that it is carried out. Usually runs with a rescue statement. Rescue is used to handle exceptions/errors. Ensure will always be executed no matter what. Rescue will be executed when it meets certain conditions.
+
+for: loop syntax defines the start of a for loop. Kind of like "each", "each" is more idiomatic.
+
+if: conditional statement (so relies on a condition being met to run)
+
+in: part of "for" loops. (for x in y...)
+
+module: defines a new module. A module is a collection of methods and constants. Takes a constant (name of module as argument) as it's argument. Modules can be used to group together methods, classes and constants.
+
+next: bumps an iterator to the next iteration. (If you have an array you can start at a set point instead of at the start -with an unless!)
+
+not: logical not. "!" is more idiomatic.
+
+or: logical operator, more idiomatic to use "||"
+
+redo: Will rerun a block of code exactly the same ways
+
+retry: Must be used within a rescue block. Will try the code block again.
+
+return: returns a value from a function. They are mostly optional as you can use an implicit return instead
+
+self: the current object
+    Use self when setting/getting instance attributes inside a class definition
+    use self to denote a method within the class definition as a class method
+    Use self to reference the calling object within an instance method definition
+Self can be implicit
+
+super: The parent class of the class.
+
+then: can be used with "if". if x then y. Not really necessary.
+
+undef: removes a function def from a class. dereference a method or class for use in a given scope
+
+unless: The reverse of if.
+
+until: opposite of while, will execute block of code as long as it's false
+
+when: part of case conditionals
+
+while: will run forever if condition not met.
+
+yield: Pauses and transfers control to the code block

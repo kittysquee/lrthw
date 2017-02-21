@@ -1,0 +1,23 @@
+Some string escape sequences have to be carried out within double quotes " "
+
+The backslash escapes these
+
+\\ escapes the backslash, meaning you can put a backslash as "text" within a string
+
+\' will escape a single quote if using within a string contained in single quotes
+
+\" will escape a double quote if using a string contained in double quotes
+
+\a bell - will make the terminal chime when it is ran
+
+\b backspace -will delete a character in the string
+
+\f formfeed - will fracture the string so it will be placed over two lines but the end bit will sit in its position on line one but on line two
+
+\n new line! Only works in double quotes
+
+\r carriage -seems to only put out the string contents after the \r
+
+\t will tab in
+
+\v vertical tab

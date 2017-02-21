@@ -1,0 +1,1 @@
+puts "Pixel" or "BMO"

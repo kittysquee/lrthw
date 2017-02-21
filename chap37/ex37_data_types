@@ -1,0 +1,23 @@
+true: this is a true boolean value.
+  true == true
+  true && true (true)
+  true && false (false)
+  true || true (true)
+  true || false (true)
+
+false: this is a false boolean value
+  false == false
+  false && false (false)
+  false || false (false)
+
+nil: represents nothing. Nothing to return.
+
+string: a string is a collection of characters, contained in " ", it stores textual information
+
+numbers: whole numbers with no decimal point. have a numerical value. store integers
+
+floats: numbers with a decimal point ie 1.0, 0.45, -4.5567, store floats
+
+arrays: Store a list of things (can be strings, integers, floats), contained in square brackets [ ]
+
+hashes: stores a key/value mapping of things ie 'pixel' => 'cat', 'age' => 30
