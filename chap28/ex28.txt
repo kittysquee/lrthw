@@ -1,0 +1,19 @@
+== checks if both sides are equal, if they are then true
+
+!= checks if both sides are equal, if NOT then true
+
+> checks if left operand is greater, if LEFT greater true
+
+< checks if left operand is smaller, if LEFT smaller true
+
+>= checks if left is greater or equal to right. If left greater or same true
+
+<= checks if left side is smaller or equal to right. If left smaller or same true
+
+<=> combined comparison operator
+    1 <=> 1 returns 0 (as they are equal)
+    1 <=> 0 returns 1 (as first operand is greater than second)
+    0 <=> 1 returns -1 (as first operand is smaller than second)
+
+=== used to test equality within a "when" clause of a case statement
+    (1...10)===5 returns true
